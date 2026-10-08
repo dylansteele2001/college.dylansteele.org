@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body style="background-color:white;">
+
+<div class="navbar">
+  <a href="https://www.bfei.ie/students/academic-calendar/">Accademic Calender</a>
+  <a href="https://bfei.etbonline.ie/">Moodle/Office365</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/104.png">Room 104</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/105.png">Room 105</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/106.png">Room 106</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/107.png">Room 107</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/108.png">Room 108</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/109.png">Room 109</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/114.png">Room 114</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/115.png">Room 115</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/116.png">Room 116</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/117.png">Room 117</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/118-LC.png">Learning Centre</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/204.png">Room 204</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/205.png">Room 205</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/206.png">Room 206</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/208.png">Room 208</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/209.png">Room 209</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/210.png">Room 210</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/211.png">Room 211</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/212.png">Room 212</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/301.png">Room 301</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/302.png">Room 302</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/B02.png">Room B02</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/B03.png">Room B03</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/B04.png">Room B04</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/B05.png">Room B05</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/B09.png">Room B09</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/G06.png">Room G06</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/G07.png">Room G07</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/G08.png">Room G08</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/G09.png">Room G09</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/G10.png">Room G10</a>
+      <a class="dropdown-item" href="https://www.bfei.ie/map/rooms/G12.png">Room G12</a>
+    </div>
+  </div> 
+</div>
+
+<h3>Dropdown Menu inside a Navigation Bar</h3>
+<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+
+</body>
+</html>
